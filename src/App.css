@@ -1,23 +1,80 @@
 .app {
-  background-color: #333; /* Dark gray background */
+  background-color: #fffde3;
   color: orange;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .background {
   background: url('./plate.png');
   background-repeat: no-repeat;
   background-position: center center;
-  
+  height: 400px;
+  filter:blur(4px);
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  margin-top: -60px;
+  background-color: #270e8a;
+  z-index: 3;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
-  height: 100px;
+  height: 200px;
 }
 
-.subtitle, .buttons, .about-us, .gallery, .inquiry {
+.menu-section {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  margin-bottom: -5vh;
+}
+
+.parallax-image {
+  max-width: 500px;
+}
+
+.parallax-window {
+  height: 500px; /* Adjust height as necessary */
+  width: 30%;
+  max-width: 400px;
+  margin-left: 15vw;
+  margin-right:-5vw;
+  overflow: hidden;
+  position: relative; /* or fixed, depending on desired effect */
+}
+
+.parallax-background {
+  background-image: url('./parallax_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 300px;
+  position: absolute;
+}
+
+
+.slide-up {
+  position: relative;
+  background: url('./plate.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px; /* Adjust height as necessary */
+  z-index: 0; /* Ensure it's above other content if needed */
+  margin-top: -100vh;
+}
+
+
+.buttons, .gallery, .inquiry {
   text-align: center;
 }
 
