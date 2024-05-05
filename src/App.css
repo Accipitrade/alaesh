@@ -99,6 +99,11 @@
   text-align: center;
 }
 
+.gif {
+  transform: rotate(90deg);
+  width: 100%;
+}
+
 header {
   background-size: cover;
   padding: 50px 20px;
