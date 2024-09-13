@@ -16,7 +16,7 @@ function App() {
       <Parallax translateY={[-30, -700]}>
         <img src={logo} alt="Logo" className="logo" />
       </Parallax>
-      <div style={{ textAlign: 'center', zIndex: '0', marginTop: '-40vh', position: 'relative', fontSize: '40px', marginBottom: '10vh' }}>↓</div>
+      <div style={{ textAlign: 'center', zIndex: '0', marginTop: '-47vh', position: 'relative', fontSize: '40px', marginBottom: '10vh' }}>↓</div>
 
       <section className="menu-section">
         <div>
@@ -38,6 +38,24 @@ function App() {
       </section>
 
       <div className='animated-transition'>
+      <Parallax translateX={[40, 25]}>
+        <h2 style={{ paddingTop: '50px' }}>Having a Party? We got the smoke.</h2>
+        </Parallax>
+      </div>
+
+      <div className='about-us'>
+        <h2>Join us for our Lunch Club, every Sunday this football season.</h2>
+        <div>Bring home the meat and be the hero of your sunday night football!</div>
+        <div>Pre-order to customize, or play a flat weekly rate for a package of a la Esh's signature barbecue meats, on rotation, along with enough sides to keep you stuffed for days!</div>
+        <div>Each package is expected to feed 4 people.</div>
+      </div>
+
+      <div className='menu-section'>
+        <button className='buttons'>Online Order for Sharon Pickup</button>
+        <button className='buttons'>Subscribe</button>
+      </div>
+
+      <div className='animated-transition'>
         <Parallax translateX={[100, 25]}>
           <h2 style={{ paddingTop: '50px' }}>Traditional Barbecue Techniques.</h2>
         </Parallax>
@@ -48,24 +66,20 @@ function App() {
         </Parallax>
       </div>
 
-      <h2>Check out our feature in Phantom Gourmet!</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/FikAAVJahBk?si=70L-UanjCYY5Kxiq" title="Phantom Gourmet at a la Esh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-      <div className='animated-transition' >
-      <Parallax translateX={[0, 25]}>
-        <h2 style={{ paddingTop: '50px' }}>The Smoker's Always On!</h2>
-        </Parallax>
-      </div>
-
       <div className="about-us">
         <h2>About Us</h2>
         <div>Our team, led by Executive Chef Avi Shemtov, approaches barbecue from a unique perspective. Focused on award winning barbeque quality and progressive flavors, a La Esh is something very familiar that's unlike anything you've ever had before.</div>
         <div>In recent years, a La Esh has partnered with luxury campground Normandy Farms in Foxborough, Massachusetts, to bring Chef Avi's unique take on barbecue to the campground. Join us in the spring, summer and fall inside Normandy farms to try our unique take on barbecue and classic camp favorites!</div>
+
+
+      <h2>Check out our feature in Phantom Gourmet!</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FikAAVJahBk?si=70L-UanjCYY5Kxiq" title="Phantom Gourmet at a la Esh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
-      <div className='animated-transition'>
-      <Parallax translateX={[40, 25]}>
-        <h2 style={{ paddingTop: '50px' }}>Having a Party? We got the smoke.</h2>
+
+      <div className='animated-transition' >
+      <Parallax translateX={[0, 25]}>
+        <h2 style={{ paddingTop: '50px' }}>The Smoker's Always On!</h2>
         </Parallax>
       </div>
 
